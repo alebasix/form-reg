@@ -1,0 +1,14 @@
+* {box-sizing: border-box;}
+
+main {
+  margin: 0 auto;
+  width: 30%;
+  overflow: auto;
+}
+
+.firsttwolines {padding: 15px 35px;
+}
+
+.lastthrelines {padding: 15px 193px;
+margin-top: 20px;
+}

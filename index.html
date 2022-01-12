@@ -29,10 +29,16 @@
           Register
         </span>
       </h2>
-      <h4 style="color: rgb(199, 194, 194); text-align: center;">
-        Create your account. It's free and only take a minute
+      <h4 style="color: rgb(199, 194, 194); text-align:start ; font-size: 1.5em; ">
+        Create your account. It's free and only takes a minute.
       </h4>
-      <form action="/"></form>
+      <form action="/" method="post">
+<label><input class="firsttwolines" type="text" name="firstname" placeholder="First Name" pattern="[/^[a-z ,.'-]+$/i]"></label>
+<label><input class="firsttwolines" type="text" name="lastname" placeholder="Last Name" pattern="[/^[a-z ,.'-]+$/i]" style="margin-left: 60px;"  ></label>
+<div><input class="lastthrelines" type="email" name="email" placeholder="Email" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"></div>
+<div><input class="lastthrelines" type="password" name="password" placeholder="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"></div>
+<div><input class="lastthrelines" type="password" name="password" placeholder="Confirm Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"></div>
+      </form>
     </main>
   </body>
 </html>
