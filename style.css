@@ -9,6 +9,7 @@ section {
   width: 50%;
   overflow: auto;
   text-align: center;
+  background-color: lightgray;
 }
 
 .firsttwolines {padding: 15px 55px;
@@ -18,3 +19,6 @@ section {
 margin-top: 20px;
 }
 ::placeholder { text-align: left; }
+
+.Terms-of-Use-and-Privacy-Policy-links {text-decoration: none;
+color: green; }

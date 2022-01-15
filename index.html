@@ -10,37 +10,94 @@
   <body>
     <main>
       <section>
-      <h2
-        style="
-          height: 2px;
-          background-color: rgb(199, 194, 194);
-          text-align: center;
-          font: 3em sans-serif;
-        "
-      >
-        <span
+        <h2
           style="
-            background-color: white;
-            position: relative;
-            top: -0.5em;
-            padding: 0px 25px;
-            color: rgb(104, 97, 97);
+            height: 2px;
+            background-color: rgb(199, 194, 194);
+            text-align: center;
+            font: 3em sans-serif;
           "
         >
-          Register
-        </span>
-      </h2>
-      <h4 style="color: rgb(199, 194, 194); text-align:start ; font-size: 1.5em; text-align: center; ">
-        Create your account. It's free and only takes a minute.
-      </h4>
-      <form action="/" method="post">
-<label><input class="firsttwolines" type="text" name="firstname" placeholder="First Name" pattern="[/^[a-z ,.'-]+$/i]"></label>
-<label><input class="firsttwolines" type="text" name="lastname" placeholder="Last Name" pattern="[/^[a-z ,.'-]+$/i]" style="margin-left: 15px;"  ></label>
-<div><input class="lastthrelines" type="email" name="email" placeholder="Email" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"></div>
-<div><input class="lastthrelines" type="password" name="password" placeholder="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"></div>
-<div><input class="lastthrelines" type="password" name="password" placeholder="Confirm Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"></div>
-      </form>
-    </section>
+          <span
+            style="
+              background-color: white;
+              position: relative;
+              top: -0.5em;
+              padding: 0px 25px;
+              color: rgb(104, 97, 97);
+            "
+          >
+            Register
+          </span>
+        </h2>
+        <h4
+          style="
+            color: rgb(199, 194, 194);
+            text-align: start;
+            font-size: 1.5em;
+            text-align: center;
+          "
+        >
+          Create your account. It's free and only takes a minute.
+        </h4>
+        <form action="/" method="post">
+          <label
+            ><input
+              class="firsttwolines"
+              type="text"
+              name="firstname"
+              placeholder="First Name"
+              pattern="[/^[a-z ,.'-]+$/i]"
+          /></label>
+          <label
+            ><input
+              class="firsttwolines"
+              type="text"
+              name="lastname"
+              placeholder="Last Name"
+              pattern="[/^[a-z ,.'-]+$/i]"
+              style="margin-left: 15px"
+          /></label>
+          <div>
+            <input
+              class="lastthrelines"
+              type="email"
+              name="email"
+              placeholder="Email"
+              pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+            />
+          </div>
+          <div>
+            <input
+              class="lastthrelines"
+              type="password"
+              name="password"
+              placeholder="Password"
+              pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+            />
+          </div>
+          <div>
+            <input
+              class="lastthrelines"
+              type="password"
+              name="password"
+              placeholder="Confirm Password"
+              pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+            />
+          </div>
+          <div>
+            <input class="lastthrelines" type="checkbox" name="checkbox" />I
+            accept the
+            <a class="Terms-of-Use-and-Privacy-Policy-links" href="#"
+              >Terms of Use</a
+            >
+            &
+            <a class="Terms-of-Use-and-Privacy-Policy-links" href="#"
+              >Privacy Policy</a
+            >
+          </div>
+        </form>
+      </section>
     </main>
   </body>
 </html>
