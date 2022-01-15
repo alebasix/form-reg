@@ -40,14 +40,16 @@
         >
           Create your account. It's free and only takes a minute.
         </h4>
-        <form action="/" method="post">
+        <form action="/index.html" method="get">
           <label
             ><input
+              autofocus
               class="firsttwolines"
               type="text"
               name="firstname"
               placeholder="First Name"
               pattern="[/^[a-z ,.'-]+$/i]"
+              required
           /></label>
           <label
             ><input
@@ -57,6 +59,7 @@
               placeholder="Last Name"
               pattern="[/^[a-z ,.'-]+$/i]"
               style="margin-left: 10px"
+              required
           /></label>
           <div>
             <input
@@ -65,6 +68,7 @@
               name="email"
               placeholder="Email"
               pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+              required
             />
           </div>
           <div>
@@ -74,6 +78,7 @@
               name="password"
               placeholder="Password"
               pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+              required
             />
           </div>
           <div>
@@ -83,11 +88,16 @@
               name="password"
               placeholder="Confirm Password"
               pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+              required
             />
           </div>
-          <div style="text-align: start; margin-left: 60px; ">
-            <input class="lastthrelines" type="checkbox" name="checkbox" />I
-            accept the
+          <div style="text-align: start; margin-left: 60px">
+            <input
+              required
+              class="lastthrelines"
+              type="checkbox"
+              name="checkbox"
+            />I accept the
             <a class="Terms-of-Use-and-Privacy-Policy-links" href="#"
               >Terms of Use</a
             >
@@ -96,7 +106,7 @@
               >Privacy Policy</a
             >
           </div>
-          <button class="button-conteiner" > Register Now</button>
+          <button class="button-conteiner">Register Now</button>
         </form>
       </section>
     </main>
