@@ -9,7 +9,7 @@ section {
   width: 50%;
   overflow: auto;
   text-align: center;
-  background-color: lightgray;
+  background-color: #f2f3f7;
 }
 
 .firsttwolines {padding: 15px 55px;
@@ -21,4 +21,4 @@ margin-top: 20px;
 ::placeholder { text-align: left; }
 
 .Terms-of-Use-and-Privacy-Policy-links {text-decoration: none;
-color: green; }
+color: green }
