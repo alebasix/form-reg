@@ -1,14 +1,20 @@
 * {box-sizing: border-box;}
 
-main {
-  margin: 0 auto;
-  width: 30%;
-  overflow: auto;
+main {height: 99.5vh ;
+  width: 99.5vw;
 }
 
-.firsttwolines {padding: 15px 35px;
+section {
+  margin: 0 auto;
+  width: 50%;
+  overflow: auto;
+  text-align: center;
+}
+
+.firsttwolines {padding: 15px 55px;
 }
 
 .lastthrelines {padding: 15px 193px;
 margin-top: 20px;
 }
+::placeholder { text-align: left; }
