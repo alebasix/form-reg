@@ -1,24 +1,33 @@
 * {box-sizing: border-box;}
 
-main {height: 99.5vh ;
-  width: 99.5vw;
+main {height: 100% ;
+  width: 100%;
 }
 
 section {
   margin: 0 auto;
-  width: 50%;
-  overflow: auto;
+  width: 25%;
   text-align: center;
+  overflow: auto;
   background-color: #f2f3f7;
+  min-width: 500px;
+  min-height: 500px;
 }
 
-.firsttwolines {padding: 15px 55px;
+.firsttwolines {padding: 15px 15.5px;
 }
 
-.lastthrelines {padding: 15px 193px;
+.lastthrelines {padding: 15px 112px;
 margin-top: 20px;
 }
 ::placeholder { text-align: left; }
 
 .Terms-of-Use-and-Privacy-Policy-links {text-decoration: none;
 color: green }
+
+.button-conteiner {padding: 15px 139px;
+  margin-top: 20px;
+  font: 1em sans-serif;
+  color: white;
+background-color: green;
+}
